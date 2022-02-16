@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.nav-link {
+  color: #a19c9c !important;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav-link.active {
+  color: #78e7a9 !important;
+}
+
+.c-dark {
+  color: #000 !important;
+}
+
+.slider-img {
+  height: 350px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 5rem;
+  color: #fff;
+  text-align: center;
+  width: 30vw;
+  margin-left: auto;
+  right: 10%;
+}
+
+.c-gray {
+  color: #dfe4e6;
+}
+
+.book-images {
+  max-height: 200px;
+  max-width: 150px;
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: 3px 5px 18px #88888866;
+}
+
+.like-book {
+  position: absolute;
+  right: 0;
+}
+
+.liked {
+  color: red;
+}
+
+.unliked {
+  color: gray;
+}
+
+.card {
+  border: none;
+}
+
+.book-list-card-bg {
+  background-color: #fcfcfd;
+}

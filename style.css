@@ -74,7 +74,7 @@ body {
   background-color: #fcfcfd;
 }
 
-.load-more{
+.load-more {
   background-color: #00d664;
   border-radius: 20px;
   border: none;
@@ -83,8 +83,7 @@ body {
   box-shadow: 0px 5px 10px #88888866;
 }
 
-.social-media-container{
-  border-top: 2px solid #4080ff;
+.social-media-container {
   box-shadow: 0px 5px 10px #88888866;
   height: 100px;
   display: flex;
@@ -92,13 +91,69 @@ body {
   align-items: center;
   justify-content: center;
 }
+.container-facebook {
+  border-top: 2px solid #4080ff;
+}
+.container-twitter {
+  border-top: 2px solid #1b95e0;
+}
+.container-pinterest {
+  border-top: 2px solid #ea4c89;
+}
 
-.social-media-button{
-  background-color: #4080ff;
+.social-media-button {
   color: white;
   border-radius: 5px;
 }
-
-.social-media-button:hover{
+.btn-facebook {
+  background-color: #4080ff;
+}
+.btn-facebook:hover {
   background-color: aqua;
+}
+.btn-twitter {
+  background-color: #1b95e0;
+}
+.btn-twitter:hover {
+  background-color: #4080ff;
+}
+
+.btn-pinterest {
+  background-color: #ea4c89;
+}
+
+.btn-pinterest:hover {
+  background-color: #f38ab2;
+}
+
+.newsletter-email {
+  border: none;
+  box-shadow: 0px 5px 10px #88888866;
+  border-radius: 20px;
+  padding: 5px 10px 5px 20px;
+}
+
+.newsletter-email:focus {
+  outline: none;
+}
+
+.newsletter-email::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #888888;
+  opacity: 1; /* Firefox */
+  font-weight: 600;
+}
+
+.footer-title {
+  color: #888888;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer-subtitle {
+  color: black !important;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
 }

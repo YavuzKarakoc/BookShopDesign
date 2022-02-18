@@ -72,6 +72,12 @@ body {
 
 .book-list-card-bg {
   background-color: #fcfcfd;
+  min-height: 370px;
+}
+
+.go-somewhere-btn {
+  position: absolute;
+  bottom: 15px;
 }
 
 .load-more {
